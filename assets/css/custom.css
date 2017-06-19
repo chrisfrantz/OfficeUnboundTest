@@ -222,7 +222,6 @@ footer p {
 .footer-text {
   color: #fff;
 }
-
 /*breakpoints*/
 @media only screen and (max-width: 845px) {
     .nav.navbar-nav {
