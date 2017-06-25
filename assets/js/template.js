@@ -9,4 +9,5 @@
     $("#newsletter-footer").load("partials/newsletter-footer.html");
     $("#newsletter-header").load("partials/newsletter-header.html");
     $("#nav-partial").load("partials/nav-partial.html");
+    $("#modal-partial").load("partials/modal-partial.html");
 });
