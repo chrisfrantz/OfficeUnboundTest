@@ -223,12 +223,51 @@ footer p {
   color: #fff;
 }
 /*breakpoints*/
-@media only screen and (max-width: 845px) {
+
+@media only screen and (max-width: 990px) {
     .nav.navbar-nav {
     float: right !important;
-   
 }
+    #nav-interview-btn {
+      display: none;
+    }
 }
+
+/*iphone 6s and smaller*/
+@media only screen and (max-width: 414px) {
+
+  .btn.btn-primary.col.col-6 {
+      margin: 0 auto;
+      margin-top: 9px;
+  }
+  .modal-content {
+    padding: 20px;
+    width:80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .blog-post {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .newsletter-blog-footer button {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  p {
+    font-size: 90% !important;
+  }
+
+}
+
+
+#subscribe-btn {
+ margin-right: 12px;
+}
+
+
 
 .modal-content {
     padding:20px;
